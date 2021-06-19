@@ -45,6 +45,9 @@ $("#sort").click(function(){
     else if(selectedOption === 'insertion'){
         insertion()
     }
+    else if(selectedOption === 'merge'){
+        merge()
+    }
 })
 
 
