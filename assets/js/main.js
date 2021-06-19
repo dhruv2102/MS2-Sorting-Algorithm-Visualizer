@@ -18,5 +18,14 @@ function createArray(sizeOfArray){
     for(let i=0; i<sizeOfArray; i++){
         array.push(Math.ceil(Math.random() * 100))
     }
-    console.log(array)
+
+
+    // Logic here should be for every element add a bar-style
+    for(let i=0; i<sizeOfArray; i++){
+        const element = document.createElement('div')
+        element.style.height = `${array[i]*2}px`
+        element.classList.add('bar-style')
+        element.classList.add(`barNumber${i}`)
+        document.getElementById('graph').appendChild(element)
+    }
 }

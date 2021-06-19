@@ -17,3 +17,10 @@
     justify-content: center;
     flex-wrap: nowrap;
 }
+
+.bar-style{
+    background: black;
+    border: 1pt red solid;
+    width: 10px;
+    transition: 1s all ease;
+}
