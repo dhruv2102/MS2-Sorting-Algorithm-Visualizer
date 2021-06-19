@@ -1,21 +1,6 @@
 // getting the array size
 let arraySize = document.getElementById('size').value
 
-function swap(element1, element2){
-    let temp = element1.style.height;
-    element1.style.height = element2.style.height;
-    element2.style.height = temp;
-}
-
-let delay = 300
-
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
-async function timeout(t){
-    return new Promise(resolve => {
-        setTimeout(() => {resolve('')}, t)
-    })
-}
-
 // Getting upaded value of input size
 // Reference - https://stackoverflow.com/questions/28932238/how-to-get-input-range-during-change-with-jquery/28932277
 $(document).on('input', '#size', function(){
@@ -47,19 +32,43 @@ function createArray(sizeOfArray){
         element.classList.add('sort-indentifier')
         document.getElementById('graph').appendChild(element)
     }
-    console.log('Call Bubble sort')
-    console.log(array)
-    bubble();
-    console.log(array)
-
 }
 
+// Adding event listner for sorting array
 
-// Helper functions
+$("#sort").click(function(){
+    var selectedOption = document.getElementById('algorithms').value;
+    console.log(selectedOption)
+})
+
+
+
+// ------------------------------------------- Helper functions
 function deleteArray(){
     document.getElementById('graph').innerHTML = ''
 }
 
+function swap(element1, element2){
+    let temp = element1.style.height;
+    element1.style.height = element2.style.height;
+    element2.style.height = temp;
+}
 
+let delay = 1000
+
+// Reference - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+async function timeout(t){
+    return new Promise(resolve => {
+        setTimeout(() => {resolve('')}, t)
+    })
+}
+
+
+// Reference - https://stackoverflow.com/questions/31968490/bootstrap-dropdown-text-not-changing-when-selected
+$('.dropdown-menu').on( 'click', 'a', function() {
+    var text = $(this).html();
+    var htmlText = text + ' <span class="caret"></span>';
+    $(this).closest('.dropdown').find('.dropdown-toggle').html(htmlText);
+});
 
 

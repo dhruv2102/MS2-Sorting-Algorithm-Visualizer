@@ -34,19 +34,25 @@
                     </li>
 
                     <li class="nav-item dropdown center-align">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Sorting Algorithm List
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        </a> -->
+                        <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id='algorithms'>
                             <a class="dropdown-item uppercase">Bubble Sort<span class="sr-only">Bubble Sort</span></a>
                             <a class="dropdown-item uppercase">Algo2<span class="sr-only">Algo2</span></a>
                             <a class="dropdown-item uppercase">Algo3<span class="sr-only">Algo3</span></a>
-                        </div>
+                        </div> -->
+                        <select name="algorithms" id="algorithms">
+                            <option value="bubble">Bubble Sort</option>
+                            <option value="merge">Merge Sort</option>
+                            <option value="insertion">Insertion Sort</option>
+                        </select>
+
                     </li>
                     
                      <!-- https://getbootstrap.com/docs/4.0/components/buttons/ -->
                     <li class="nav-item center-align">
-                        <button type="button" class="btn btn-primary btn-sm">Sort Array</button>
+                        <button type="button" class="btn btn-primary btn-sm" id="sort">Sort Array</button>
                     </li>
 
                 </ul>
