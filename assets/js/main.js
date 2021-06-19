@@ -13,6 +13,8 @@ let array = []
 
 createArray(arraySize)
 function createArray(sizeOfArray){
+    // Create a function to delete the existing elements
+    deleteArray()
 
     array = []
     for(let i=0; i<sizeOfArray; i++){
@@ -28,4 +30,8 @@ function createArray(sizeOfArray){
         element.classList.add(`barNumber${i}`)
         document.getElementById('graph').appendChild(element)
     }
+}
+
+function deleteArray(){
+    document.getElementById('graph').innerHTML = ''
 }
