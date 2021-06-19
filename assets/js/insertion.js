@@ -7,6 +7,7 @@ async function insertion(){
         let j = i-1;
         let key = elements[i].style.height;
         elements[i].style.background = 'blue'
+        await(timeout(delay))
         while(j >= 0 && parseInt(elements[j].style.height) > parseInt(key)){
             elements[j].style.background = 'blue'
             elements[j+1].style.height = elements[j].style.height;

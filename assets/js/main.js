@@ -48,6 +48,12 @@ $("#sort").click(function(){
     else if(selectedOption === 'merge'){
         merge()
     }
+    else if(selectedOption === 'quick'){
+        quick()
+    }
+    else if(selectedOption === 'selection'){
+        selection()
+    }
 })
 
 
