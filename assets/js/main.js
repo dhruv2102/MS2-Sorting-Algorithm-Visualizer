@@ -6,6 +6,7 @@ let arraySize = document.getElementById('size').value
 $(document).on('input', '#size', function(){
     arraySize = document.getElementById('size').value
     createArray(arraySize)
+
 })
 
 // Creating an array of random numbers
@@ -69,8 +70,6 @@ function swap(element1, element2){
     element2.style.height = temp;
 }
 
-let delay = 200
-
 // Reference - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 async function timeout(t){
     return new Promise(resolve => {
@@ -98,3 +97,12 @@ function enableElements(){
     document.getElementById('algorithms').disabled = false;
     document.getElementById('sort').disabled = false;
 }
+
+// Getting updated speed
+let delay = 500
+// Reference - https://stackoverflow.com/questions/28932238/how-to-get-input-range-during-change-with-jquery/28932277
+$(document).on('input', '#speed', function(){
+    speed = document.getElementById('speed').value
+    console.log(speed)
+    delay = 500 - speed
+})
