@@ -38,7 +38,13 @@ function createArray(sizeOfArray){
 
 $("#sort").click(function(){
     var selectedOption = document.getElementById('algorithms').value;
-    console.log(selectedOption)
+    
+    if(selectedOption === 'bubble'){
+        bubble()
+    }
+    else if(selectedOption === 'insertion'){
+        insertion()
+    }
 })
 
 
