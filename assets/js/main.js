@@ -7,6 +7,15 @@ function swap(element1, element2){
     element2.style.height = temp;
 }
 
+let delay = 300
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+async function timeout(t){
+    return new Promise(resolve => {
+        setTimeout(() => {resolve('')}, t)
+    })
+}
+
 // Getting upaded value of input size
 // Reference - https://stackoverflow.com/questions/28932238/how-to-get-input-range-during-change-with-jquery/28932277
 $(document).on('input', '#size', function(){
@@ -40,7 +49,7 @@ function createArray(sizeOfArray){
     }
     console.log('Call Bubble sort')
     console.log(array)
-    bubble()
+    bubble();
     console.log(array)
 
 }
@@ -50,4 +59,7 @@ function createArray(sizeOfArray){
 function deleteArray(){
     document.getElementById('graph').innerHTML = ''
 }
+
+
+
 
