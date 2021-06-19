@@ -1,6 +1,12 @@
 // getting the array size
 let arraySize = document.getElementById('size').value
 
+function swap(element1, element2){
+    let temp = element1.style.height;
+    element1.style.height = element2.style.height;
+    element2.style.height = temp;
+}
+
 // Getting upaded value of input size
 // Reference - https://stackoverflow.com/questions/28932238/how-to-get-input-range-during-change-with-jquery/28932277
 $(document).on('input', '#size', function(){
@@ -25,13 +31,23 @@ function createArray(sizeOfArray){
     // Logic here should be for every element add a bar-style
     for(let i=0; i<sizeOfArray; i++){
         const element = document.createElement('div')
-        element.style.height = `${array[i]*2}px`
+        element.style.height = `${array[i]*3}px`
         element.classList.add('bar-style')
         element.classList.add(`barNumber${i}`)
+        // Adding the class below to identify while sorting
+        element.classList.add('sort-indentifier')
         document.getElementById('graph').appendChild(element)
     }
+    console.log('Call Bubble sort')
+    console.log(array)
+    bubble()
+    console.log(array)
+
 }
 
+
+// Helper functions
 function deleteArray(){
     document.getElementById('graph').innerHTML = ''
 }
+
