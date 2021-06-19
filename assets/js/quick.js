@@ -32,5 +32,6 @@ async function quick(){
     const elements = document.querySelectorAll('.sort-indentifier'); 
     l = 0;
     r = elements.length - 1;
-    quicksort(elements, l, r)
+    await quicksort(elements, l, r)
+    enableElements()
 }

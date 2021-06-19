@@ -38,7 +38,7 @@ function createArray(sizeOfArray){
 
 $("#sort").click(function(){
     var selectedOption = document.getElementById('algorithms').value;
-    
+    disableElements()
     if(selectedOption === 'bubble'){
         bubble()
     }
@@ -69,7 +69,7 @@ function swap(element1, element2){
     element2.style.height = temp;
 }
 
-let delay = 1000
+let delay = 200
 
 // Reference - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 async function timeout(t){
@@ -86,4 +86,15 @@ $('.dropdown-menu').on( 'click', 'a', function() {
     $(this).closest('.dropdown').find('.dropdown-toggle').html(htmlText);
 });
 
+// Block other elements while sorting
+function disableElements(){
+    document.getElementById('size').disabled = true;
+    document.getElementById('algorithms').disabled = true;
+    document.getElementById('sort').disabled = true;
+}
 
+function enableElements(){
+    document.getElementById('size').disabled = false;
+    document.getElementById('algorithms').disabled = false;
+    document.getElementById('sort').disabled = false;
+}

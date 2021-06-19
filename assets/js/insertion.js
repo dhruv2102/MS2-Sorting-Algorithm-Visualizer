@@ -22,4 +22,5 @@ async function insertion(){
         elements[j+1].style.height = key;
         elements[i].style.background = 'green'
     }
+    enableElements()
 }

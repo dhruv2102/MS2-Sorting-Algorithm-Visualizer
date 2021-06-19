@@ -5,6 +5,7 @@ async function merge(){
     let left = 0;
     let right = elements.length - 1;
     await mergesort(elements, left, right)
+    enableElements()
 }
 
 async function mergesort(elements, l, r){

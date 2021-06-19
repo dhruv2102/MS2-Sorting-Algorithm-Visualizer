@@ -15,5 +15,5 @@ async function bubble(){
         elements[elements.length-1-i].style.background =  'green' 
     }
     elements[0].style.background = 'green'
-
+    enableElements()
 }
