@@ -8,3 +8,12 @@
  .center-align{
     text-align: center;
  }
+
+/*---------------------------- Sorting Vizualizer */
+.flex-container{
+    margin-top: 25px;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
