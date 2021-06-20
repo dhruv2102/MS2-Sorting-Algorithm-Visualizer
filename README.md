@@ -108,11 +108,17 @@ During the development of website, google chrome developer tools were used to te
     - CLicking the button results in the array to be sorted
 
 6. W3C Validator Test
+    - ![W3C Results](/assets/images/w3c.png)
 
 7. Jigsaw Validator Test
+    - ![Jigsaw Validator](/assets/images/css.png)
 
 8. Lighthouse Validator
+    - Mobile
+    - ![Loghouse Mobile Results](/assets/images/lighthouse_mobile.png)
 
+    - Desktop
+    - ![Loghouse Mobile Results](/assets/images/lighthouse_desktop.png)
 ### Testing User Stories
 
 ### Testing Site Owner Stories
