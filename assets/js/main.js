@@ -25,8 +25,14 @@ function createArray(sizeOfArray){
 
     // Logic here should be for every element add a bar-style
     for(let i=0; i<sizeOfArray; i++){
+        // getting width
+        // https://stackoverflow.com/questions/11927844/get-width-in-pixels-from-element-with-style-set-with
+        let totalWidth = document.getElementById('graph').clientWidth
+        elementWidth = totalWidth/sizeOfArray
+        
         const element = document.createElement('div')
         element.style.height = `${array[i]*3}px`
+        element.style.width = `${elementWidth}px`
         element.classList.add('bar-style')
         element.classList.add(`barNumber${i}`)
         // Adding the class below to identify while sorting

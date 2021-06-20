@@ -18,18 +18,22 @@ align-items: center;
  }
 
 /*---------------------------- Sorting Vizualizer */
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
+
 .flex-container{
     margin-top: 25px;
     display: flex;
-    height: 500px;
+    height: 600px;
     justify-content: center;
     flex-wrap: nowrap;
-    width: 100%;
+    width: 80%;
 }
 
 .bar-style{
     background: black;
     border: 1pt red solid;
-    width: 20px;
     transition: 1s all ease;
 }
