@@ -12,7 +12,7 @@
 - [Running Project Locally](#running-project-locally)
 - [Credits](#Credits)
 
-![View across different Displays]
+![View across different Displays](/assets/images/an_i_responsive.png)
 
 ## Introduction
 
@@ -25,7 +25,7 @@ This site is to help visualize different sorting algorithms.
 - User can specify the size of the array
 - User can instruct when to start the sorting. 
 - User can specify the speed of sorting
-- User can change the speed while sorting is in progress
+- User can ony change the speed while sorting is in progress
 
 ## Site Owner Goals
 - Easy to use
@@ -108,20 +108,32 @@ During the development of website, google chrome developer tools were used to te
     - CLicking the button results in the array to be sorted
 
 6. W3C Validator Test
-    - ![W3C Results](/assets/images/w3c.png)
+    ![W3C Results](/assets/images/w3c.png)
 
 7. Jigsaw Validator Test
-    - ![Jigsaw Validator](/assets/images/css.png)
+    ![Jigsaw Validator](/assets/images/css.png)
 
 8. Lighthouse Validator
     - Mobile
-    - ![Loghouse Mobile Results](/assets/images/lighthouse_mobile.png)
+    ![Loghouse Mobile Results](/assets/images/lighthouse_mobile.png)
 
     - Desktop
-    - ![Loghouse Mobile Results](/assets/images/lighthouse_desktop.png)
+    ![Loghouse Mobile Results](/assets/images/lighthouse_desktop.png)
 ### Testing User Stories
+All the user stories can be tested by the following pictures
 
-### Testing Site Owner Stories
+![Testing Algorithm](/assets/images/user_stories/pic1.png)
+
+- The pic above shoes a different algorithm and size of the array being selected than the default selection
+- This confirms the size of the array and algorithm can be selected by the users choice
+
+![Sorting in Progress](/assets/images/user_stories/pic2.png)
+- This pic shows the inital speed selected wile the sorting is in progress.
+- This checks the stories that user can specify when to start sorting and the speed of sorting
+
+![Changing speed of sorting](/assets/images/user_stories/pic3.png)
+- As it can be seen the speed of sorting can be easily changed when the sorting is in progess
+
 
 ## Deployment
 
