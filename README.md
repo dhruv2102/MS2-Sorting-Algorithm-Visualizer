@@ -84,6 +84,39 @@ This site is to help visualize different sorting algorithms.
 
 ## Testing
 
+During the development of website, google chrome developer tools were used to test the website and check the responsiveness of the code implemented. The final testing was done on
+- Dell Latitude 7410, 14" screen
+- HP 24f Monitor
+- Oneplus 6T
+
+### General Tests
+
+1. Pages are loaded correctly
+    - Testing if pages was being loaded correctly
+    - Result: Web page is being loaded correctly
+
+2. Clicking on Logo brings back to home screen
+    - Result: When the logo is clicked on, it brings back to the home screen
+
+3. Checking if the Size and Speed Slider work
+    - Result: Both the sliders work perfectly and change values as required
+
+4. Dropdown list is working
+    - Result: Dropdown list is working fine and selecteing the desired algorithm
+
+5. Sort array button working
+    - CLicking the button results in the array to be sorted
+
+6. W3C Validator Test
+
+7. Jigsaw Validator Test
+
+8. Lighthouse Validator
+
+### Testing User Stories
+
+### Testing Site Owner Stories
+
 ## Deployment
 
 I used github pages to deploy the website. To deploy a project, one should follow the following steps
