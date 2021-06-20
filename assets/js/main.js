@@ -99,10 +99,9 @@ function enableElements(){
 }
 
 // Getting updated speed
-let delay = 500
+let delay = 1000
 // Reference - https://stackoverflow.com/questions/28932238/how-to-get-input-range-during-change-with-jquery/28932277
 $(document).on('input', '#speed', function(){
     speed = document.getElementById('speed').value
-    console.log(speed)
-    delay = 500 - speed
+    delay = 1000 - speed
 })
