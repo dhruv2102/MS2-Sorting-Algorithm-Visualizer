@@ -38,7 +38,7 @@ Balsamiq was used to design the following
 ## Technologies Used
 <!-- From MS1 -->
 - [HTML](https://en.wikipedia.org/wiki/HTML5)
-    - HTML was to give structure to page and content
+    - HTML was user to give structure to page and content
 
 - [CSS](https://en.wikipedia.org/wiki/CSS)
     - CSS was used to style the content
@@ -96,7 +96,7 @@ During the development of website, google chrome developer tools were used to te
 ### General Tests
 
 1. Pages are loaded correctly
-    - Testing if pages was being loaded correctly
+    - Testing if the webpage was being loaded correctly
     - Result: Web page is being loaded correctly
 
 2. Clicking on Logo brings back to home screen
@@ -106,10 +106,10 @@ During the development of website, google chrome developer tools were used to te
     - Result: Both the sliders work perfectly and change values as required
 
 4. Dropdown list is working
-    - Result: Dropdown list is working fine and selecteing the desired algorithm
+    - Result: Dropdown list is working fine and selecting the desired algorithm
 
 5. Sort array button working
-    - CLicking the button results in the array to be sorted
+    - Clicking the button results in the array to be sorted
 
 6. W3C Validator Test
     ![W3C Results](/assets/images/w3c.png)
@@ -128,11 +128,11 @@ All the user stories can be tested by the following pictures
 
 ![Testing Algorithm](/assets/images/user_stories/pic1.png)
 
-- The pic above shoes a different algorithm and size of the array being selected than the default selection
+- The pic above shows a different algorithm and size of the array being selected than the default selection
 - This confirms the size of the array and algorithm can be selected by the users choice
 
 ![Sorting in Progress](/assets/images/user_stories/pic2.png)
-- This pic shows the inital speed selected wile the sorting is in progress.
+- This pic shows the initial speed selected while the sorting is in progress.
 - This checks the stories that user can specify when to start sorting and the speed of sorting
 
 ![Changing speed of sorting](/assets/images/user_stories/pic3.png)
@@ -167,11 +167,11 @@ To run the project locally, follow these steps
 
 ## Future Development
 
-- Sorting algorithm comparator: Visualize two sorting algorithms side by side to indetify whihc one is faster
+- Sorting algorithm comparator: Visualize two sorting algorithms side by side to identify which one is faster
 
 
 ## Note
-- All the algorithms were coded by my own with reference from Geeks for Geeks. 
+- All the algorithms were coded on my own with reference from Geeks for Geeks. 
 - To help understand how to make site more visual for sorting algorithms, reference was taken from the repository: https://github.com/AbhishekPrakash5/Sorting-Visualization
 
 
