@@ -27,5 +27,6 @@ async function selection(){
         elements[min_index].style.background = 'black'
         elements[i].style.background = 'green'
     }
+    elements[elements.length-1].style.background = 'green'
     enableElements()
 }

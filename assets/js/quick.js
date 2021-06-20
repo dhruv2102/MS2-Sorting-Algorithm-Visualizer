@@ -7,6 +7,7 @@ async function quicksort(elements, l, r){
         await quicksort(elements, l, pivot-1)
         await quicksort(elements, pivot+1, r)
     }else{
+        if(l>=0 && r>=0)
         elements[r].style.background = 'green'
         elements[l].style.background = 'green'
     }
@@ -26,15 +27,16 @@ async function partition(elements, low, high){
         if(parseInt(elements[j].style.height) < parseInt(piv)){
             i++;
             swap(elements[i], elements[j]);
-            
+            // Less than pivot
             elements[i].style.background = 'orange'
 
-            if(i !== j){
+            if(i != j){
                 elements[j].style.background = 'orange'
             }
             await timeout(delay)
         }
         else{
+            // Greater than pivot
              elements[j].style.background = 'pink'
         }
     }
