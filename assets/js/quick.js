@@ -7,7 +7,7 @@ async function quicksort(elements, l, r){
         await quicksort(elements, l, pivot-1)
         await quicksort(elements, pivot+1, r)
     }else{
-        if(l>=0 && r>=0)
+        if(l>=0 && r>=0 && l < elements.len && r < elements.len)
         elements[r].style.background = 'green'
         elements[l].style.background = 'green'
     }
@@ -42,7 +42,7 @@ async function partition(elements, low, high){
     }
     await timeout(delay)
     swap(elements[i+1], elements[high]);
-    // elements[high].style.background = 'pink'
+    elements[high].style.background = 'pink'
     elements[i+1].style.background = 'green'
 
     // Turning color back to black for unsorted
