@@ -165,13 +165,14 @@ To run the project locally, follow these steps
 
 - I would like to thank my mentor for guiding me through the project
 
-
 ## Future Development
 
 - Sorting algorithm comparator: Visualize two sorting algorithms side by side to indetify whihc one is faster
 
 
-
+## Note
+- All the algorithms were coded by my own with reference from Geeks for Geeks. 
+- To help understand how to make site more visual for sorting algorithms, reference was taken from the repository: https://github.com/AbhishekPrakash5/Sorting-Visualization
 
 
 
