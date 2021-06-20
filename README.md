@@ -19,6 +19,10 @@
 This site is to help visualize different sorting algorithms. 
 
 ## Wireframes
+Balsamiq was used to design the following
+
+![Wireframes](assets/images/wireframes.png)
+
 
 ## User Stories
 - User should be able to select the algorithm from which he/she can sort the array
