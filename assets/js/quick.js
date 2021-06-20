@@ -42,7 +42,7 @@ async function partition(elements, low, high){
     }
     await timeout(delay)
     swap(elements[i+1], elements[high]);
-    elements[high].style.background = 'pink'
+    // elements[high].style.background = 'pink'
     elements[i+1].style.background = 'green'
 
     // Turning color back to black for unsorted
