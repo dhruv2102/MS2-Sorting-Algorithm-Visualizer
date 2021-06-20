@@ -1,4 +1,4 @@
-# [Sorting Algorithm Vizualization](add the link here)
+# [Sorting Algorithm Vizualization](https://dhruv2102.github.io/MS2-Sorting-Algorithm-Visualizer/)
 
 ## Content
 
@@ -86,9 +86,34 @@ This site is to help visualize different sorting algorithms.
 
 ## Deployment
 
-## Running Project Locally
+I used github pages to deploy the website. To deploy a project, one should follow the following steps
+1. Log into github and locate the repository.
+2. Find the settings tab and click on it
+3. Locate the GitHub pages section
+4. In the source sub-section, select the master branch from dropdown
+5. Click on save, and you'll find your live link there
 
-## Credits
+The link to my project is: https://dhruv2102.github.io/MS2-Sorting-Algorithm-Visualizer/
+
+
+## Running Project Locally
+To run the project locally, follow these steps
+1. Open the repository https://dhruv2102.github.io/MS2-Sorting-Algorithm-Visualizer/
+2. Choose HTTPS clone option from the code button.
+3. Copy this command
+4. Open the directory where you want to clone the project to. 
+5. Open the Git Bash terminal in the targeted directory.
+6. Type the command git clone and then paste the HTTPS url
+6. After the execution of the command, this repository would be created in the directory. 
+
+## Acknowledgement
+
+- I would like to thank my mentor for guiding me through the project
+
+
+## Future Development
+
+- Sorting algorithm comparator: Visualize two sorting algorithms side by side to indetify whihc one is faster
 
 
 
